@@ -3,6 +3,7 @@
 default['barbican-monitoring']['install_agent'] = false
 default['barbican-monitoring']['node_type'] = ''
 # More default declarations for checks.
+default['barbican-monitoring']['checks']['remote'] = false
 default['barbican-monitoring']['checks']['check_entity_id'] = ""
 default['barbican-monitoring']['checks']['check_type'] = ""
 default['barbican-monitoring']['checks']['check_label'] = ""
