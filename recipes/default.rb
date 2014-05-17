@@ -18,4 +18,9 @@
 #
 
 include_recipe 'cloud_monitoring'
-
+include_recipe 'barbican-monitoring::checks'
+include_recipe 'barbican-monitoring::alarms'
+# Do we want to install an agent?
+if(node['barbican-monitoring']['install_agent'] == true)
+include_recipe 'barbican-monitoring::agent'
+end
