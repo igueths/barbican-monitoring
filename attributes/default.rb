@@ -11,5 +11,5 @@ default['barbican-monitoring']['check_details'] = ""
 # Common alarm attributes.
 default['barbican-monitoring']['alarm_label'] = ""
 default['barbican-monitoring']['alarm_criteria'] = ""
-default['barbican-monitoring']['alarm_entity_id'] = ""
+default['barbican-monitoring']['alarm_check_label'] = ""
 default['barbican-monitoring']['alarm_notification_plan_id'] = ""
