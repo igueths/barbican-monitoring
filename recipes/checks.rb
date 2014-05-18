@@ -1,5 +1,5 @@
-# Cookbook Name:: Barbican-monitoring
-# Recipe:: Checks
+# Cookbook Name:: barbican-monitoring
+# Recipe:: checks
 #
 # Copyright 2014, Rackspace
 #
