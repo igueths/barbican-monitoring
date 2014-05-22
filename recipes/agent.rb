@@ -1,5 +1,5 @@
-Cookbook Name:: barbican-monitoring
-Recipe:: agent
+# Cookbook Name:: barbican-monitoring
+# Recipe:: agent
 #
 # Copyright 2014, Rackspace
 #
